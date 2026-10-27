@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Creative portfolio of a video editor and graphic designer. Explore motion, film, branding, and visual design.">
+  <title>Studio — Video Editor & Graphic Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Home"><span class="brand-mark">S<span>.</span></span><span class="brand-name">YOUR NAME<span>CREATIVE PORTFOLIO</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav">
+      <a href="#work">Selected work</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-pad" id="home">
+      <div class="hero-topline reveal"><span class="eyebrow"><i class="status-dot"></i> AVAILABLE FOR SELECT PROJECTS</span><span class="mono">INDEPENDENT CREATIVE · 2026</span></div>
+      <div class="hero-title-wrap">
+        <p class="hero-kicker reveal">I turn ideas into <em>visual experiences.</em></p>
+        <h1 class="hero-title reveal">EDITING<br><span class="outline-text">THE</span> <span class="accent-word">FEELING.</span></h1>
+      </div>
+      <div class="hero-bottom reveal">
+        <p class="hero-copy">Video editor & graphic designer crafting bold visuals, thoughtful identities, and stories that stay with you.</p>
+        <a class="circle-link" href="#work" aria-label="Explore selected work"><span>EXPLORE<br>MY WORK</span><b>↓</b></a>
+        <div class="hero-note mono">PREMIERE PRO / AFTER EFFECTS<br>PHOTOSHOP / ILLUSTRATOR / CANVA</div>
+      </div>
+      <div class="hero-visual" aria-label="Abstract creative artwork">
+        <div class="visual-orb"></div><div class="visual-ring ring-one"></div><div class="visual-ring ring-two"></div>
+        <div class="visual-label label-top mono">FRAME 001 / VISUAL STUDY</div>
+        <div class="visual-label label-bottom mono">DESIGN · MOTION · STORY</div>
+        <div class="visual-cross cross-one">+</div><div class="visual-cross cross-two">+</div>
+      </div>
+      <div class="scroll-cue mono"><span></span> SCROLL TO DISCOVER</div>
+    </section>
+
+    <section class="work-section section-pad" id="work">
+      <div class="section-heading reveal"><div><p class="eyebrow">01 / SELECTED WORK</p><h2>Made to <em>make you look.</em></h2></div><p class="section-intro">A selection of visual stories, edits, and design experiments. Replace these sample projects with your own best work.</p></div>
+      <div class="filter-row reveal" role="group" aria-label="Filter projects">
+        <button class="filter active" data-filter="all">All work <span>06</span></button>
+        <button class="filter" data-filter="video">Video editing <span>03</span></button>
+        <button class="filter" data-filter="design">Graphic design <span>03</span></button>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-large reveal" data-category="video">
+          <a class="project-image image-cinema" href="#contact" aria-label="Discuss cinematic edit project">
+            <div class="project-art art-cinema"><div class="sun-disc"></div><div class="mountain mountain-back"></div><div class="mountain mountain-front"></div><span class="art-caption">AFTER<br>THE LIGHT</span><span class="play-button">▶</span></div>
+            <span class="project-number mono">01 / VIDEO</span><span class="project-open">↗</span>
+          </a>
+          <div class="project-meta"><div><h3>Cinematic Visual Story</h3><p>Color grading · Storytelling · Sound design</p></div><span class="project-year mono">2026</span></div>
+        </article>
+        <article class="project-card reveal" data-category="design">
+          <a class="project-image image-type" href="#contact" aria-label="Discuss editorial design project">
+            <div class="type-poster"><span class="poster-small mono">FORM / NO. 04</span><strong>LESS<br>NOISE<span>.</span></strong><span class="poster-bottom mono">A STUDY IN CONTRAST</span></div><span class="project-number mono">02 / DESIGN</span><span class="project-open">↗</span>
+          </a>
+          <div class="project-meta"><div><h3>Editorial Poster Series</h3><p>Typography · Art direction</p></div><span class="project-year mono">2026</span></div>
+        </article>
+        <article class="project-card reveal" data-category="video">
+          <a class="project-image image-reel" href="#contact" aria-label="Discuss social media reel project">
+            <div class="reel-art"><div class="reel-shape"></div><span>MOVE<br>WITH<br>INTENT.</span><small class="mono">SOCIAL CAMPAIGN / 9:16</small></div><span class="project-number mono">03 / VIDEO</span><span class="project-open">↗</span>
+          </a>
+          <div class="project-meta"><div><h3>Social Campaign Reel</h3><p>Short-form editing · Motion graphics</p></div><span class="project-year mono">2026</span></div>
+        </article>
+        <article class="project-card project-large reveal" data-category="design">
+          <a class="project-image image-brand" href="#contact" aria-label="Discuss brand identity project">
+            <div class="brand-art"><div class="brand-sun"></div><div class="brand-word">SOLACE<span>®</span></div><div class="brand-sub mono">BOTANICAL OBJECTS / IDENTITY SYSTEM</div><div class="brand-stamp">S<br>—<br>01</div></div><span class="project-number mono">04 / DESIGN</span><span class="project-open">↗</span>
+          </a>
+          <div class="project-meta"><div><h3>Brand Identity Concept</h3><p>Visual identity · Packaging · Layout</p></div><span class="project-year mono">2026</span></div>
+        </article>
+        <article class="project-card reveal" data-category="video">
+          <a class="project-image image-frame" href="#contact" aria-label="Discuss product video project">
+            <div class="frame-art"><div class="frame-product"></div><div class="frame-light"></div><span class="frame-text">OBJECTS<br>IN MOTION</span><span class="frame-tag mono">PRODUCT FILM / 01</span></div><span class="project-number mono">05 / VIDEO</span><span class="project-open">↗</span>
+          </a>
+          <div class="project-meta"><div><h3>Product Film</h3><p>Editing · Compositing · Visual rhythm</p></div><span class="project-year mono">2026</span></div>
+        </article>
+        <article class="project-card reveal" data-category="design">
+          <a class="project-image image-cover" href="#contact" aria-label="Discuss album artwork project">
+            <div class="cover-art"><div class="cover-circle"></div><span class="cover-title">NIGHT<br>SHIFT</span><span class="cover-credit mono">A VISUAL ALBUM STUDY</span></div><span class="project-number mono">06 / DESIGN</span><span class="project-open">↗</span>
+          </a>
+          <div class="project-meta"><div><h3>Music Artwork</h3><p>Cover art · Digital composition</p></div><span class="project-year mono">2026</span></div>
+        </article>
+      </div>
+      <p class="portfolio-note mono">NOTE: THE PROJECT ARTWORK ABOVE IS A CUSTOM PLACEHOLDER. SWAP IN YOUR REAL PROJECT IMAGES / VIDEOS BEFORE PUBLISHING.</p>
+    </section>
+
+    <section class="showreel-section section-pad" id="showreel">
+      <div class="section-heading reveal"><div><p class="eyebrow">02 / THE SHOWREEL</p><h2>One minute.<br><em>A thousand details.</em></h2></div><p class="section-intro">Your strongest work, cut together into one memorable introduction. Add your showreel video below.</p></div>
+      <div class="showreel-frame reveal">
+        <video id="showreelVideo" controls playsinline poster="assets/showreel-poster.jpg">
+          <source src="assets/showreel.mp4" type="video/mp4">
+          Your browser does not support HTML video. Replace assets/showreel.mp4 with your showreel file.
+        </video>
+        <div class="reel-placeholder" id="reelPlaceholder"><div class="reel-placeholder-icon">▶</div><p class="eyebrow">YOUR SHOWREEL GOES HERE</p><p>Place your video at <code>assets/showreel.mp4</code></p><span class="mono">MP4 · H.264 · 1920 × 1080 RECOMMENDED</span></div>
+        <div class="reel-corner mono">SHOWREEL / 2026</div>
+      </div>
+    </section>
+
+    <section class="about-section section-pad" id="about">
+      <div class="about-layout">
+        <div class="about-heading reveal"><p class="eyebrow">03 / A LITTLE ABOUT ME</p><h2>Good work<br>has a <em>point of view.</em></h2><div class="about-index mono">CREATIVE PRACTICE — 001</div></div>
+        <div class="about-copy reveal"><p class="about-lead">I’m <strong>YOUR NAME</strong> — a video editor and graphic designer who cares about the details, the feeling, and the bigger picture.</p><p>I combine rhythm, color, typography, and visual storytelling to help creators and brands communicate with clarity and character. From a sharp social cut to a considered brand visual, every frame has a job to do.</p><div class="tool-list"><span>Premiere Pro</span><span>After Effects</span><span>CapCut</span><span>Photoshop</span><span>Illustrator</span><span>Canva</span></div><a href="#contact" class="text-link">Have a project in mind? <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="services-section section-pad" id="services">
+      <div class="section-heading reveal"><div><p class="eyebrow">04 / WHAT I DO</p><h2>From first thought<br>to <em>final frame.</em></h2></div></div>
+      <div class="service-list">
+        <article class="service-row reveal"><span class="service-num mono">01</span><div><h3>Video Editing</h3><p>Brand films, YouTube videos, reels, promos, and short-form content.</p></div><span class="service-arrow">↗</span></article>
+        <article class="service-row reveal"><span class="service-num mono">02</span><div><h3>Motion Graphics</h3><p>Animated titles, transitions, kinetic typography, and visual effects.</p></div><span class="service-arrow">↗</span></article>
+        <article class="service-row reveal"><span class="service-num mono">03</span><div><h3>Graphic Design</h3><p>Posters, thumbnails, social media creatives, and campaign assets.</p></div><span class="service-arrow">↗</span></article>
+        <article class="service-row reveal"><span class="service-num mono">04</span><div><h3>Brand Visuals</h3><p>Visual identity concepts, art direction, and consistent brand systems.</p></div><span class="service-arrow">↗</span></article>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad" id="contact">
+      <div class="contact-top reveal"><p class="eyebrow">05 / HAVE SOMETHING IN MIND?</p><span class="mono">GOOD PROJECTS START WITH A HELLO.</span></div>
+      <h2 class="contact-title reveal">LET’S MAKE<br><em>IT MATTER.</em></h2>
+      <div class="contact-bottom reveal"><p>Have a project, collaboration, or idea you’d like to explore? Tell me a little about it.</p><a class="contact-email" href="mailto:hello@example.com">hello@example.com <span>↗</span></a></div>
+    </section>
+  </main>
+
+  <footer class="footer section-pad"><a class="brand" href="#home"><span class="brand-mark">S<span>.</span></span><span class="brand-name">YOUR NAME<span>CREATIVE PORTFOLIO</span></span></a><span class="mono">© <span id="year"></span> YOUR NAME · MADE WITH INTENTION</span><a class="back-top mono" href="#home">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
