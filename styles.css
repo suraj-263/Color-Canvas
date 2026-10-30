@@ -14,3 +14,7 @@
 /* Keep the showreel's full frame visible without cropping, on every screen size. */
 .showreel-frame{height:auto;min-height:0;aspect-ratio:16/9}
 .showreel-frame video{object-fit:contain}
+.project-photo{display:block;width:100%;height:100%;object-fit:contain;background:#d5d2c9}
+.project-image.image-type,.project-image.image-reel{height:auto;aspect-ratio:1587/2245}
+.design-image-grid{position:absolute;inset:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:8px;padding:8px;background:#25261e}
+.design-image-grid img{display:block;width:100%;height:100%;object-fit:contain;padding:4px;border:1px solid #ffffff3b;background:#d5d2c9}
