@@ -20,10 +20,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const filters = document.querySelectorAll(".filter");
   const projects = document.querySelectorAll(".project-card");
+  const projectGrid = document.querySelector(".project-grid");
   filters.forEach(button => {
     button.addEventListener("click", () => {
       filters.forEach(filter => filter.classList.toggle("active", filter === button));
       const category = button.dataset.filter;
+      projectGrid?.classList.toggle("design-filtered", category === "design");
       projects.forEach(project => {
         const visible = category === "all" || project.dataset.category === category;
         project.classList.toggle("hidden", !visible);
